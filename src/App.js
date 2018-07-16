@@ -5,6 +5,20 @@ import React, { Component } from 'react';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 
+// Grab local images
+import alien from "./images/alien.png";
+import ash from "./images/ash.png";
+import baby from "./images/baby.png";
+import brett from "./images/brett.png";
+import dallas from "./images/dallas.png";
+import facehugger from "./images/facehugger.png";
+import jonesy from "./images/jonesy.png";
+import kane from "./images/kane.png";
+import lambert from "./images/lambert.png";
+import nostromo from "./images/nostromo.png";
+import parker  from "./images/parker.png";
+import ripley from "./images/ripley.png";
+
 // Grab local CSS
 import './App.css';
 
