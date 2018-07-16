@@ -50,7 +50,34 @@ class App extends Component {
 
   // switch statement to return results based on clicked image
   imgSwitch = (name) => {
-
+    switch (name) {
+      case "alien":
+        return `${alien}`
+      case "ash":
+        return `${ash}`
+      case "baby":
+        return `${baby}`
+      case "brett":
+        return `${brett}`
+      case "dallas":
+        return `${dallas}`
+      case "facehugger":
+        return `${facehugger}`
+      case "jonesy":
+        return `${jonesy}`
+      case "kane":
+        return `${kane}`
+      case "lambert":
+        return `${lambert}`
+      case "nostormo":
+        return `${nostromo}`
+      case "parker":
+        return `${parker}`
+      case "ripley":
+        return `${ripley}`
+      default:
+        return `${alien}`
+    }
   }
 
   render() {
