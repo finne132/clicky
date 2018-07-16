@@ -35,12 +35,20 @@ class App extends Component {
   };
 
   // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+  // shuffle the array 
   shuffleArray = (array) => {
+    let imgArray = Img;
+    for (let i = imgArray.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [imgArray[i], imgArray[j]] = [imgArray[j], imgArray[i]];
+    }
+    return imgArray
   }
-
+  // onClick handler for image
   pickImg = (name) => {
   }
 
+  // switch statement to return results based on clicked image
   imgSwitch = (name) => {
 
   }
