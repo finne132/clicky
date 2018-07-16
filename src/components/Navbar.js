@@ -2,7 +2,7 @@
 
 import React from "react";
 
-const Nav = (props) => (
+const Navbar = (props) => (
   <nav className="navbar navbar-light bg-info">
     <span className="navbar-brand h1">Clicky Game</span>
     <span className="text-center h3">{props.message}</span>
@@ -12,4 +12,4 @@ const Nav = (props) => (
     </span>
   </nav>
 )
-export default Nav;
+export default Navbar;
