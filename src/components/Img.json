@@ -1,6 +1,50 @@
 [
     {
-    "name": "image1",
-    "url": "./images/image1.png"
+    "name": "alien",
+    "url": "./images/alien.png"
+    },
+    {
+    "name": "ash",
+    "url": "./images/ash.png"
+    },
+    {
+    "name": "baby",
+    "url": "./images/baby.png"
+    },
+    {
+    "name": "brett",
+    "url": "./images/brett.png"
+    },
+    {
+    "name": "dallas",
+    "url": "./images/dallas.png"
+    },
+    {
+    "name": "facehugger",
+    "url": "./images/facehugger.png"
+    },
+    {
+    "name": "jonesy",
+    "url": "./images/jonesy.png"
+    },
+    {
+    "name": "kane",
+    "url": "./images/kane.png"
+    },
+    {
+    "name": "lambert",
+    "url": "./images/lambert.png"
+    },
+    {
+    "name": "nostromo",
+    "url": "./images/nostromo.png"
+    },
+    {
+    "name": "parker",
+    "url": "./images/parker.png"
+    },
+    {
+    "name": "ripley",
+    "url": "./images/ripley.png"
     }
 ]
