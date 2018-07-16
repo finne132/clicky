@@ -4,8 +4,10 @@
 import React, { Component } from 'react';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Nav from "./components/Nav";
+import Navbar from "./components/Navbar";
 import Img from "./components/Img.json"
+import Main from "./components/Main";
+import Image from "./components/Image";
 
 // Grab local images
 import alien from "./images/alien.png";
