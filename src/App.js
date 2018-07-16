@@ -46,6 +46,19 @@ class App extends Component {
   }
   // onClick handler for image
   pickImg = (name) => {
+    let picked = this.state.picked;
+    
+    if (picked.indexOf(name) === -1) {
+      this.setState({
+        picked: picked.concat(name),
+        correct: this.state.correct + 1,
+        topscore: this.state.correct + 1 > this.state.topscore ? this.state.correct + 1 : this.state.topscore,
+        message: "Correct" 
+      })
+      this.shuffleArray();
+    }
+    else {
+    }
   }
 
   // switch statement to return results based on clicked image
