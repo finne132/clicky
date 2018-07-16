@@ -5,7 +5,7 @@ import React from 'react';
 
 // create the footer component
 const Footer = () => (
-<footer>
+<footer className="footer bg-info">
     <div className="container">
       <span classNAme="footer-text">UMN Coding Bootcamp React Homework 1</span>
   </div>
