@@ -58,6 +58,11 @@ class App extends Component {
       this.shuffleArray();
     }
     else {
+      this.setState({
+        message: "Incorrect: Play again?",
+        correct: 0,
+        picked: []
+      })
     }
   }
 
